@@ -1,7 +1,7 @@
 import * as UT from "./userTypes";
 import axios from "axios";
 
-const REGISTER_URL = "https://student-backend-9zpn.onrender.com/rest/register";
+const REGISTER_URL = "https://student-backend-9zpn.onrender.com/rest/user/register";
 
 export const fetchUsers = () => {
   return (dispatch) => {
