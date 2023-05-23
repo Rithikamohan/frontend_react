@@ -1,7 +1,7 @@
 import * as UT from "./userTypes";
 import axios from "axios";
 
-const REGISTER_URL = "http://localhost:8082/rest/faculty/register";
+const REGISTER_URL = "https://faculty-backend.onrender.com/rest/faculty/register";
 
 export const fetchUsers = () => {
   return (dispatch) => {
