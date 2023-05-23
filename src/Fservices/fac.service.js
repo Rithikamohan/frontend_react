@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_API_URL = "http://localhost:8082/rest/faculty";
+const BASE_API_URL = "https://faculty-backend.onrender.com/rest/faculty";
 
 class FacService {
 
