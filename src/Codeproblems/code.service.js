@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const BASE_API_URL = "http://localhost:8084/codec";
-const cplusURL="http://localhost:8084/cplus";
+const BASE_API_URL = "https://codeproblem-backend.onrender.com/codec";
+const cplusURL="https://codeproblem-backend.onrender.com/cplus";
 class EmpService {
 
    async getAllEmp() {
