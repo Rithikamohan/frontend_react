@@ -1,7 +1,7 @@
 import * as AT from "./authTypes";
 import axios from "axios";
 
-const AUTH_URL = "http://localhost:8082/rest/faculty/authenticate";
+const AUTH_URL = "https://faculty-backend.onrender.com/rest/faculty/authenticate";
 
 
 export const authenticateUser = (email, password) => async (dispatch) => {
