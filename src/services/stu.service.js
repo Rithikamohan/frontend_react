@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_API_URL = "http://localhost:8080/rest/user";
+const BASE_API_URL = "https://student-backend-9zpn.onrender.com/rest/user";
 
 class EmpService {
 
